@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | BSSE 7th Semester</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h2>WEB TECHNOLOGY</h2>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <div>
+      <p class="eyebrow">BSSE 7TH SEMESTER - LAB TASK 4</p>
+      <h1>Hi, I'm<br>Software Engineering Student</h1>
+      <p>Aspiring Full-Stack Developer | BSSE 7th Semester, Web Technology Enthusiast.</p>
+      <a href="#projects" class="btn">View Projects</a>
+      <a href="#contact" class="btn btn-outline">Contact Me</a>
+    </div>
+    <div class="hero-profile">
+      <div class="profile-box">
+        <h3>👨‍💻</h3>
+        <p>Muhammad Waqas Siddiqi<br>Web Technology</p>
+      </div>
+    </div>
+  </div>
+
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <p class="section-sub">Who I am and what I do</p>
+    <div class="card-grid">
+      <div class="card"><h3>Introduction</h3><p class="card-text">I am a 7th semester BSSE student learning Web Technologies - HTML5, CSS3, JS and frameworks.</p></div>
+      <div class="card"><h3>Education</h3><p class="card-text"><b>BS Software Engineering</b><br>7th Semester (2022-2026)<br>CGPA: 3.4/4.0</p></div>
+      <div class="card"><h3>Career Goal</h3><p class="card-text">To become Full-Stack Engineer and pursue MS in Europe.</p></div>
+    </div>
+  </section>
+
+  <section id="skills" class="section-alt">
+    <h2 class="section-title">Skills</h2>
+    <p class="section-sub">Technologies I work with</p>
+    <div class="card-grid">
+      <div class="card">
+        <h3>Frontend</h3>
+        <p>HTML5 / CSS3</p><div class="skill-bar"><div class="skill-fill w-90"></div></div>
+        <p>JavaScript</p><div class="skill-bar"><div class="skill-fill w-80"></div></div>
+        <p>React.js</p><div class="skill-bar"><div class="skill-fill w-75"></div></div>
+      </div>
+      <div class="card">
+        <h3>Backend</h3>
+        <p>Node.js / Express</p><div class="skill-bar"><div class="skill-fill w-70"></div></div>
+        <p>MySQL / MongoDB</p><div class="skill-bar"><div class="skill-fill w-75"></div></div>
+      </div>
+      <div class="card">
+        <h3>Tools</h3>
+        <span class="project-tag">Git &amp; GitHub</span>
+        <span class="project-tag">Figma</span>
+        <span class="project-tag">REST APIs</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <p class="section-sub">My recent work</p>
+    <div class="card-grid">
+      <div class="card"><h3>1. Portfolio Website</h3><p class="project-description">Responsive portfolio as per Lab Task 4.</p><span class="project-tag">HTML</span><span class="project-tag">CSS</span><span class="project-tag">JS</span></div>
+      <div class="card"><h3>2. Student Management System</h3><p class="project-description">CRUD app with auth and dashboard.</p><span class="project-tag">PHP</span><span class="project-tag">MySQL</span></div>
+      <div class="card"><h3>3. Ransomware Awareness Site</h3><p class="project-description">Educational site on cybersecurity.</p><span class="project-tag">Security</span></div>
+    </div>
+  </section>
+
+  <section id="contact" class="section-alt">
+    <h2 class="section-title">Contact</h2>
+    <p class="section-sub">Let's connect</p>
+    <div class="card-grid">
+      <div class="card">
+        <form id="contactForm">
+          <label for="name">Name</label><input id="name" name="name" type="text" required placeholder="Your Name">
+          <label for="email">Email</label><input id="email" name="email" type="email" required placeholder="your@email.com">
+          <label for="message">Message</label><textarea id="message" name="message" rows="4" required placeholder="Write message..."></textarea>
+          <button class="submit-btn" type="submit">Send Message</button>
+          <p id="msgStatus" role="status" aria-live="polite">Message sent!</p>
+        </form>
+      </div>
+      <div class="card">
+        <h3>Contact Info</h3>
+        <p class="contact-info">📧 bsse@university.edu.pk<br>📍 Faisalabad, Pakistan<br>🔗 github.com/yourusername</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>Department of SE | BSSE 7th | Web Tech Lab Task 4 | Date: 14/10/26</footer>
+  <script src="script.js"></script>
+</body>
+</html>
